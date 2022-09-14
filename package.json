@@ -1,0 +1,23 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "Async Landing page example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meganmaguire/async-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meganmaguire/async-landing/issues"
+  },
+  "homepage": "https://github.com/meganmaguire/async-landing#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
