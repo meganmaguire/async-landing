@@ -38,7 +38,7 @@ async function fetchPokemonSpecies(urlApi, number){
                 <img class="transition-all ease-in group-hover:scale-105 duration-200" src="${pokemon.sprites.other['official-artwork'].front_default}" alt="Pokémon ${pokemon.species.name}, PokéDex number #${pokemon.id}" class="w-full">
                 </div>
                 <div class="mt-6 flex gap-3 items-center">
-                    <span class="w-5"><img src="./imgs/poke_ball.png"></span>
+                    <span class="w-5"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png"></span>
                     <h3 class="text-lg font-bold text-gray-900 grow">
                         ${pokemon.species.name.toUpperCase()}
                     </h3>
