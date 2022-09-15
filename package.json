@@ -4,7 +4,7 @@
   "description": "Async Landing page example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/meganmaguire/async-landing#readme",
   "dependencies": {
     "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
